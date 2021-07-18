@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#page-landing {
+  background: linear-gradient(329.54deg, #021013 0%, #070707 100%);
+  text-align: center;
+  min-height: 180vh;
+  display: flex;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+:root {
+  font-size: 90.5%;
+}
+
+#container {
+  margin: auto;
+  width: min(95%, 112rem);
+}
+
+section .title {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  min-height: 10vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+div.op1 {
+  width: 15%;
+  background-color: red;
+  top: 75px;
+  display: flex;
+  font-size: 3vw;
+  text-align: start;
+  padding: 5vw 5vw 0vw 0vw;
+  min-width: 9vw;
+  transition: all 0.6s ease;
+}
+
+@keyframes go-back {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+img:hover {
+  animation: go-back 1s;
+}
+
+h1 {
+  position: sticky;
+  font-family: "Caviar Dreams";
+  font-weight: bold;
+  color: #fff;
+}
+
+.row {
+  padding: 100px 50px 100px 150px;
+  box-sizing: border-box;
+  margin-top: 30px;
+  font-size: 70px;
+  font-family: "Caviar Dreams";
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+input {
+  height: 64px;
+  width: 100%;
+  max-width: 760px;
+  font-size: 22.67px;
+  padding: 12px 0px;
+  margin: 40px 80px 0px 60px;
+  border: 2px solid red;
+  border-radius: 4px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*button*/
+.button {
+  height: 56px;
+  width: 100%;
+  max-width: 240px;
+  font-size: 22.67px;
+  margin-top: 24px;
+  text-transform: uppercase;
+  background: red;
+  border-radius: 4px;
+  line-height: 56px;
+  color: #fff;
+  transition: all 0.6s ease;
+}
+.button:hover {
+  transform: scale(0.9);
+  color: #fff;
+}
+
+footer {
+  height: 80px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sci {
+  position: abolute;
+  align-items: center;
+  top: 100px;
+  left: 150px;
+  display: flex;
+  padding-left: 42px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li p {
+  text-decoration: none;
+  color: #999;
+  margin-right: 30px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sci li a {
+  text-decoration: none;
+  color: #999;
+  margin-right: 30px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.sci li a:hover {
+  color: #fff;
+}
